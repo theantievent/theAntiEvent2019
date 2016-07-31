@@ -1,0 +1,172 @@
+/*//--------------------------------//
+//  typography
+//--------------------------------//*/
+
+@font-face {
+    font-family: 'lato';
+    src: url("../fonts/Lato-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'lato-bold';
+    src: url("../fonts/Lato-Black.ttf");
+}
+
+@font-face {
+    font-family: 'lato-light';
+    src: url("../fonts/Lato-light.ttf");
+}
+
+
+/*Fonts*/
+
+.wire {
+    font-family: 'Wire One', sans-serif;
+}
+
+.abel {
+    font-family: 'Abel', sans-serif;
+}
+
+.zeyada {
+    font-family: Zeyada;
+}
+
+.syncopate {
+    font-family: Syncopate;
+}
+
+.size10 {
+    font-size: 10%;
+}
+
+.size20,
+a.size20 {
+    font-size: 20%;
+}
+
+.size40 {
+    font-size: 40%;
+}
+
+.size50,
+a.size50 {
+    font-size: 50% !important;
+}
+
+.size70 {
+    font-size: 70% !important;
+}
+
+.size90 {
+    font-size: 90%;
+}
+
+.text {
+    &.big {
+        font-size: 2em;
+        line-height: 2em;
+    }
+    &.light {
+        font-family: $light;
+    }
+    &.size100 {
+        font-size: 10em;
+    }
+    &.neutral {
+        color: $pale;
+    }
+}
+
+.size120 {
+    font-size: 120%;
+}
+
+.size150 {
+    font-size: 150%;
+}
+
+.size200 {
+    font-size: 200%;
+}
+
+.size300,
+.big {
+    font-size: 300%;
+}
+
+.size700 {
+    font-size: 700%;
+}
+
+
+/* ====== Headings ====== */
+
+h1,
+.h1 {
+    font-size: 4em;
+  
+}
+
+h2,
+.h2 {
+    font-size: 3em;
+    line-height: 1.2em;
+    @media all and (max-width: 420px) {
+        font-size: 12vw;
+    }
+}
+
+h3,
+.h3 {
+    font-size: 1.5em;
+}
+
+h4,
+.h4 {
+    font-size: 1em;
+}
+
+h5,
+.h5 {
+    font-size: 1em;
+}
+
+.strong {
+    font-weight: 900;
+}
+
+@media all and (max-width: 1000px) {
+    h1,
+    .h1 {
+        font-size: 2em;
+        font-weight: normal;
+        font-style: normal;
+    }
+    h2,
+    .h2 {
+        font-weight: normal;
+        font-style: normal;
+    }
+}
+
+.title {
+    @extend %titlecolor;
+    > span {
+        text-shadow: none;
+        background: $opaque;
+        color: $bare;
+        display: inline-block !important;
+        vertical-align: 50px;
+        padding: 2px 20px;
+    }
+    &.xl {
+        font-size: 12rem;
+    }
+}
+
+.text {
+    &.small {
+        font-size: .8em;
+    }
+}

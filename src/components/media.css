@@ -1,0 +1,9 @@
+img{
+	max-width: 100%; 
+}
+
+iframe{
+	@media all and (max-width: $tablet-width){
+width: 100%;
+	}
+}

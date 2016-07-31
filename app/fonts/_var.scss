@@ -1,0 +1,155 @@
+/* --------------------------------------------------------------------*/
+/* Variables
+/* --------------------------------------------------------------------*/
+
+// Fonts
+$basefont: MyriadPro, Arial, Helvetica, sans-serif;
+$altfont: sans-serif;
+$codefont: "Courier New", monospace;
+
+
+
+$light: 'Lato-light', sans-serif;
+
+// $light: Lato-light;
+$bold: 'Lato-bold', sans-serif; 
+
+// $narrow: "Pt Sans narrow", sans-serif;
+// $narrow: 'Lato', sans-serif;
+$narrow: 'Lato-light', sans-serif;
+
+$script: "Rammetto One", cursive, sans-serif;
+$console:'Inconsolata' ;
+
+//$script: "Pt Sans narrow", sans-serif;
+
+// Font sizes
+$basefontsize: 16px;
+
+$tiny-size: 0.8em;
+$small-size: 0.8em;
+$big-size: 1.2em;
+$huge-size: 1.5em;
+
+// Colors
+
+$color1: #db0000;
+
+//red
+$color2: #5da527;
+
+//green
+$color3: #f2b806;
+
+//yellow
+$color4: #487ffb;
+
+$color5: #ff6323;
+
+//blue
+
+// Greyscale
+$black: black;
+$opaque: #111111;
+$darker: #222222;
+$dark: #313131;
+$neutraler: #444444;
+$neutral: #666666;
+$pale: #999999;
+$bare: #cccccc;
+$whiter: #f3f3f3;
+
+//#ebebeb
+$white: white;
+
+$dot: "";
+
+// Web
+$textcolor: $dark;
+$textcolor-light: $neutral;
+$textcolor-strong: $black;
+
+// Links  //////////////////////
+$linkcolor: $neutral;
+$linkcolorhover: darken($linkcolor, 10);
+$linkcolorvisited: $neutral;
+$linkcolorfocus: darken($linkcolorvisited, 10);
+
+// Alertas y popups  ///////////////
+$alertcolor: rgb(252, 228, 207);
+$errorcolor: rgb(218, 79, 73);
+$infocolor: rgb(165, 221, 223);
+$inverscolor: rgb(65, 65, 65);
+$successcolor: rgb(91, 183, 91);
+$warningcolor: rgb(250, 167, 50);
+
+//spaces
+$container-width: 1000px;
+$full: 100%;
+$content-p: 40px;
+$menu-p-l: 12px;
+
+//Tools
+$tool-width: 24px;
+$tool-height: 24px;
+
+//Objects
+$obj-radius: 0px;
+
+//$obj-color: #2f3948;
+$obj-color: #6c86ac;
+$obj-hover: #85a4d3;
+$obj-color1: #d70943;
+$obj-color2: #ff6c00;
+$obj-color2d: #f15a10;
+$obj-color3: #f2b806;
+$obj-color4: #5da527;
+$obj-color5: #6c86ac;
+$obj-color6: #4c637e;
+$obj-color7: #009e8e;
+$obj-color7a: #1e776d;
+$obj-color7b: #00675c;
+$obj-color7c: #34cfbe;
+$obj-color8: #f30966;
+$obj-color10: #89659e;
+
+$obj-color8a: lighten($obj-color8, 5%);
+$obj-color9: #c485ca;
+
+//
+$obj-color2a: lighten(#fd8606, 5%);
+$obj-color2: #fd8606;
+
+$header-h: 32px;
+
+$html-3col: 1280px;
+$html-2col: 960px;
+
+/* --------------------------------------------------------------------*/
+/* Media queries
+/* --------------------------------------------------------------------*/
+$mobile-width-s: 320px;
+$mobile-width: 480px;
+$mobile-height-s: 480px;
+$mobile-height: 800px;
+$netbook-width: 1024px;
+$tablet-width: 880px; 
+$desktop-small:1280px;
+$desktop:1400px;
+
+/* --------------------------------------------------------------------*/
+/* Breakpoints
+/* --------------------------------------------------------------------*/
+$footer-bp:987px;
+$current-devs-bp:916px;
+/* --------------------------------------------------------------------*/
+/* Home
+/* --------------------------------------------------------------------*/
+$step-column-width:500px;
+$step-column-height:400px;
+
+//
+//
+//
+
+//
