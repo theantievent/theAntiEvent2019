@@ -5,19 +5,19 @@
 body {
   background: #fff;
   color: #222;
-  font-family: $light;
+  font-family: var(--light);
 }
 
 .landing {
   width: 50%;
   margin: 0px 0 0 40px;
   position: absolute;
-  top: 35%; 
+  top: 35%;
 }
 
 .slogan {
 
-  margin-top: 1em;
+  margin: 1em 0;
   font-size: 1.5em;
 }
 
@@ -25,9 +25,9 @@ body {
   height: 86px !important;
   max-width: 100%;
 }
- 
+
 .logo-item {
-  background: $color;
+  background: var(--color);
   color: #000;
   padding: 20px;
   a {
@@ -55,7 +55,7 @@ body {
   font-weight: bold;
 }
 
-.icon-twitter:hover:after { 
+.icon-twitter:hover:after {
   content: "Follow us";
   font-size: .3em;
   position: absolute;
@@ -79,8 +79,8 @@ a {
 //--------------------------------//*/
 
 .color {
-  color: $color !important;
-  font-family: $bold;
+  color: var(--color) !important;
+  font-family: var(--bold);
 }
 
 .bare {
@@ -274,7 +274,7 @@ ul.boxshadow2 li {
   &.only-title {
     height: 150px !important;
   }
-  
+
   .content {
     max-width: 960px;
     width: 80%;
@@ -303,28 +303,28 @@ ul.boxshadow2 li {
     }
   }
   &.color {
-    background: darken($color, 0%) !important;
-    color: $opaque;
+    background: var(--color) !important;
+    color: var(--opaque);
   }
   &.dark {
-    background: darken($darker, 0%) !important;
-    color: $bare;
+    background: var(--darker) !important;
+    color: var(--bare);
   }
   &.neutral {
-    background: darken($dark, 0%) !important;
-    color: $bare;
+    background: var(--dark)!important;
+    color: var(--bare);
   }
   &.neutraler {
-    background: darken($dark, 15%) !important;
-    color: $bare;
+    background: var(--dark) !important;
+    color: var(--bare);
   }
   &.light {
-    background: darken($bare, 0%) !important;
-    color: $opaque !important;
+    background: var(--bare) !important;
+    color: var(--opaque) !important;
   }
   &.white {
-    background: darken($white, 0%) !important;
-    color: $opaque !important;
+    background: var(--white) !important;
+    color: var(--opaque) !important;
   }
 }
 
@@ -337,10 +337,10 @@ ul.boxshadow2 li {
     text-decoration: none;
     display: block;
     padding: 17px;
-    background: $color;
-    font-family: $bold;
+    background: var(--color);
+    font-family: var(--bold);
     &:hover {
-      background: $white;
+      background: var(--white);
     }
   }
 }

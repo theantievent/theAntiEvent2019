@@ -1,37 +1,44 @@
-var gulp = require('gulp');
-var postcss = require('gulp-postcss');
-var autoprefixer = require('autoprefixer');
-var simplevars = require('postcss-simple-vars');
-var customproperties = require('postcss-custom-properties');
-var cssimport = require('postcss-import');
-var mixins = require('postcss-mixins');
-var nested = require('postcss-nested');
-var svgfragments = require('postcss-svg-fragments');
-var cssnano = require('cssnano');
-var colourFunctions = require('postcss-colour-functions');
-var notify = require('gulp-notify');
+// PostCSS Demo for Codemotion2016
+var gulp = require('gulp'),
+    postcss = require('gulp-postcss'),
+    autoprefixer = require('autoprefixer'),
+    cssimport = require('postcss-import'),
+    customproperties = require('postcss-custom-properties'),
+    apply = require('postcss-apply'),
+    mixins = require('postcss-mixins'),
+    nested = require('postcss-nested'),
+    customMedia = require("postcss-custom-media")
+    nano = require('gulp-cssnano'),
+    notify = require('gulp-notify');
 
 gulp.task('css', function() {
     var processors = [
-        cssimport,
-        autoprefixer,
-        simplevars,
-        customproperties,
-        mixins,
-        nested,
-        cssnano(),
-        colourFunctions,
-        svgfragments
+      cssimport,
+      autoprefixer,
+      customproperties,
+      apply,
+      mixins,
+      nested,
+      customMedia
     ];
-    return gulp.src('./src/style.css')
+    var configNano = {
+      autoprefixer: { browsers: 'last 2 versions' },
+      discardComments: { removeAll: true },
+      safe: true
+    };
+    return gulp.src('./src/*.css')
         .pipe(postcss(processors))
-        .pipe(gulp.dest('./docs/css/'))
-        .pipe(notify({ message: 'Your CSS is ready ;)' }));
+        .pipe(gulp.dest('./dest'))
+        .pipe(nano(configNano))
+        .pipe(gulp.dest('./docs/css'))
+        .pipe(notify({ message: 'Your CSS is ready =^_^=' }));
 });
-
+// Watch
 gulp.task('watch', function() {
-    gulp.watch('./src/**/*.css', ['css']);
+    // Watch .css files
+    gulp.watch('src/**/*.css', ['css']);
+
 });
 
-
-gulp.task('default', ['css', 'watch']);
+// Default
+gulp.task('default', ['css', 'watch',]);

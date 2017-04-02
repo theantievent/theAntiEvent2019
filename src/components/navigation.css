@@ -1,5 +1,5 @@
 /*//--------------------------------//
-//  navigation 
+//  navigation
 //--------------------------------//
 */
 
@@ -13,26 +13,26 @@
   text-align: center;
   transition: all .10s ease;
   background: rgba(0, 0, 0, 0.7);
-  @media all and (max-width: $tablet-width) {
+  @media all and (max-width: 800px) {
     width: 100%;
     right: 0;
     left: inherit;
     position: relative;
-   
+
   }
   ul {
     margin: 0 50px 0 0;
     padding: 0;
     display: flex;
-     @media all and (max-width: $tablet-width) {
+     @media all and (max-width: 800px) {
        flex-direction:column;
       }
     li {
       display: inline-block;
       list-style: none;
       width: calc(100% / 6);
-      @media all and (max-width: $tablet-width) {
-        display: block; 
+      @media all and (max-width: 800px) {
+        display: block;
         width: 100%;
       }
       a {
