@@ -2,6 +2,9 @@
 
 .container {
     margin-top: 53px;
+    /*display: grid;
+    grid-template-columns: 19% 50% 400px;
+ grid-template-rows: 100vh;*/
 }
 
 .grid {
