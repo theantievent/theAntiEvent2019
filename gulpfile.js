@@ -25,12 +25,12 @@ gulp.task('css', function() {
     ];
     return gulp.src('./src/style.css')
         .pipe(postcss(processors))
-        .pipe(gulp.dest('./app/css/'))
+        .pipe(gulp.dest('./docs/css/'))
         .pipe(notify({ message: 'Your CSS is ready ;)' }));
 });
 
 gulp.task('watch', function() {
-    gulp.watch('./src/**/*.css', ['css']); 
+    gulp.watch('./src/**/*.css', ['css']);
 });
 
 
