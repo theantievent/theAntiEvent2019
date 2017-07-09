@@ -1,22 +1,25 @@
-.button {
+.button, a.button {
     font-size: 20px;
     padding: 0.5em 1.5em;
     display: inline-block;
     width: auto;
     height: auto;
     cursor: pointer;
+    text-decoration: none;
     border-radius: 3px;
     background-color: var(--color);
     font-family: var(--bold);
     color: black;
+    max-width: 500px;
+    margin: 0 auto;
 }
 
-.button:hover {
+a.button:hover {
     background: darken(var(--color), 5%);
     color: black;
     text-decoration: none;
 }
 
-.button:active {
+a.button:active {
     box-shadow: #5a9479 0 1px 2px inset;
 }

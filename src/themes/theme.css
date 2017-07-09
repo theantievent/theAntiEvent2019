@@ -63,7 +63,7 @@ body {
   left: 40px;
 }
 
-a {
+/*a {
   color: #666666;
   text-decoration: none;
   &:visited {
@@ -72,7 +72,7 @@ a {
   &:focus, &:hover {
     text-decoration: underline;
   }
-}
+}*/
 
 /*//--------------------------------//
 //  //Colors

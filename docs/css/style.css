@@ -402,26 +402,29 @@ top: 0;
 left: 0;
 }
 
-.button {
+.button, a.button {
     font-size: 20px;
     padding: 0.5em 1.5em;
     display: inline-block;
     width: auto;
     height: auto;
     cursor: pointer;
+    text-decoration: none;
     border-radius: 3px;
     background-color: #36d0b5;
     font-family: 'Lato-bold', sans-serif;
     color: black;
+    max-width: 500px;
+    margin: 0 auto;
 }
 
-.button:hover {
+a.button:hover {
     background: darken(#36d0b5, 5%);
     color: black;
     text-decoration: none;
 }
 
-.button:active {
+a.button:active {
     box-shadow: #5a9479 0 1px 2px inset;
 }
 
@@ -751,18 +754,16 @@ overflow: visible !important;
   left: 40px;
 }
 
-a {
+/*a {
   color: #666666;
   text-decoration: none;
-}
-
-a:visited {
-color: #666666;
-}
-
-a:focus, a:hover {
-text-decoration: underline;
-}
+  &:visited {
+    color: #666666;
+  }
+  &:focus, &:hover {
+    text-decoration: underline;
+  }
+}*/
 
 /*//--------------------------------//
 //  //Colors
