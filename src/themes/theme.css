@@ -329,7 +329,7 @@ ul.boxshadow2 li {
   }
 }
 
-.lang {
+    .lang { 
   position: fixed;
   right: 0;
   z-index: 9;
@@ -338,9 +338,11 @@ ul.boxshadow2 li {
     text-decoration: none;
     display: block;
     padding: 17px;
+    color:white;
     background: var(--color);
     font-family: var(--bold);
     &:hover {
+      color:var(--color);
       background: var(--white);
     }
   }
