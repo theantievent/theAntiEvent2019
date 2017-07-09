@@ -500,6 +500,13 @@ justify-content: space-around;
 .container{
 -ms-grid-columns: 100%;
 grid-template-columns: 100%;
+margin-top: 0;
+}
+
+.container >*{
+-ms-grid-column: 1;
+grid-column-start: 1;
+grid-column-end: 3;
 }
 }
 
@@ -707,6 +714,14 @@ justify-content: center;
 -ms-flex-align: center;
 align-items: center;
 padding: 2%;
+}
+
+@media all and (max-width: 800px) {
+
+.attenders.none h1{
+width: 80vw;
+height: 80vw;
+}
 }
 
 /*//--------------------------------//
