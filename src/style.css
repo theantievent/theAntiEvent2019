@@ -7,16 +7,17 @@ Created by NAK: @nabaroa
 
 @import "utils/var";
 @import "utils/mixins";
-@import "base/reset"; 
+@import "base/reset";
+@import "base/utils";
 @import "base/typography";
 @import "components/navigation";
 @import "components/buttons";
-@import "components/header";  
-@import "components/media";  
-@import "components/lists";  
+@import "components/header";
+@import "components/media";
+@import "components/lists";
 @import "layout/layout";
+@import "pages/attenders";
 @import "themes/theme";
-@import "themes/icons"; 
-@import "extra/icomoon"; 
-@import "extra/codrops"; 
-
+@import "themes/icons";
+@import "extra/icomoon";
+@import "extra/codrops";

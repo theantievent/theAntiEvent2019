@@ -1,6 +1,13 @@
 .intro {
     text-align: center;
     padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10%;
+    h1{
+      margin: 0;
+    }
 }
 
 header {

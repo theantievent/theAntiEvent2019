@@ -267,6 +267,7 @@ ul.boxshadow2 li {
 
 .main {
   width: 100%;
+  min-height: 100vh;
   float: left;
   padding-bottom: 50px ;
 

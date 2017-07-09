@@ -1,0 +1,6 @@
+.circle{
+  border-radius: 500rem;
+}
+.bg--dark{
+  background: var(--dark);
+}

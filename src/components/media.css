@@ -3,6 +3,7 @@ img{
 }
 
 iframe{
+	width: 100%;
 	@media all and (max-width: 800px){
 	/*@media all and (max-width: $tablet-width){*/
 width: 100%;
