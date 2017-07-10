@@ -713,7 +713,7 @@ justify-content: center;
 -webkit-box-align: center;
 -ms-flex-align: center;
 align-items: center;
-padding: 2%;
+padding: 4%;
 }
 
 @media all and (max-width: 800px) {

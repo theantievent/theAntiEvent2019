@@ -15,7 +15,7 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      padding: 2%;
+      padding: 4%;
       @media all and (max-width: 800px) {
         width: 80vw;
         height: 80vw;
