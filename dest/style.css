@@ -698,13 +698,6 @@ width: 20%;
 }
 }
 
-@media (min-width: 1800px) {
-
-.attenders >.item{
-width: 10%;
-}
-}
-
 .attenders.none {
 color: white;
 display: -ms-flexbox;

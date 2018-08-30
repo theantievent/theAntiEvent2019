@@ -9,9 +9,6 @@
         @media (min-width: 800px) {
             width: 20%;
         }
-        @media (min-width: 1800px) {
-            width: 10%;
-        }
     }
     &.none {
         color: white;
