@@ -34,3 +34,25 @@
         }
     }
 }
+@media all and (min-width: 800px) {
+  .princesa {
+    &::before {
+      content: "";
+      display: none;
+      position: absolute;
+      z-index: 10;
+      pointer-events: none;
+      right: 15%;
+      top: 22%;
+      background: url(../assets/princesa.png) 0 0 no-repeat;
+      height: 113px;
+      width: 154px;
+    }
+
+    &:hover {
+      &::before {
+        display: flex;
+      }
+    }
+  }
+}
