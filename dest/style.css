@@ -312,7 +312,6 @@ font-size: .8em;
   width: 100%;
   z-index: 1;
   text-align: center;
-  -webkit-transition: all .10s ease;
   transition: all .10s ease;
   background: rgba(0, 0, 0, 0.7);
 }
@@ -330,7 +329,6 @@ position: relative;
 .mainmenu ul {
 margin: 0 50px 0 0;
 padding: 0;
-display: -webkit-box;
 display: -ms-flexbox;
 display: flex;
 }
@@ -338,8 +336,6 @@ display: flex;
 @media all and (max-width: 800px) {
 
 .mainmenu ul{
--webkit-box-orient: vertical;
--webkit-box-direction: normal;
 -ms-flex-direction: column;
 flex-direction: column;
 }
@@ -365,7 +361,6 @@ padding: 15px;
 color: #fff;
 font-size: 1.2em;
 text-decoration: none;
--webkit-transition: all .10s ease;
 transition: all .10s ease;
 }
 
@@ -431,16 +426,12 @@ a.button:active {
 .intro {
     text-align: center;
     padding: 50px 0;
-    display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-pack: center;
+        justify-content: center;
     padding: 10%;
 }
 
@@ -480,7 +471,6 @@ display: inline;
 }
 
 .list.flex{
-display: -webkit-box;
 display: -ms-flexbox;
 display: flex;
 -ms-flex-pack: distribute;
@@ -573,7 +563,6 @@ position: relative !important;
 top: inherit !important;
 left: inherit !important;
 height: 300px !important;
--webkit-transform: none !important;
 transform: none !important;
 float: none !important;
 overflow: visible !important;
@@ -685,7 +674,6 @@ text-align: left !important;
 }
 
 .attenders {
-    display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
@@ -712,13 +700,10 @@ width: 20%;
 
 .attenders.none {
 color: white;
-display: -webkit-box;
 display: -ms-flexbox;
 display: flex;
--webkit-box-pack: center;
 -ms-flex-pack: center;
 justify-content: center;
--webkit-box-align: center;
 -ms-flex-align: center;
 align-items: center;
 text-align: center;
@@ -730,17 +715,12 @@ background: #222222;
 width: 40vw;
 height: 40vw;
 border-radius: 500rem;
-display: -webkit-box;
 display: -ms-flexbox;
 display: flex;
--webkit-box-orient: vertical;
--webkit-box-direction: normal;
 -ms-flex-direction: column;
 flex-direction: column;
--webkit-box-pack: center;
 -ms-flex-pack: center;
 justify-content: center;
--webkit-box-align: center;
 -ms-flex-align: center;
 align-items: center;
 padding: 4%;
@@ -772,7 +752,6 @@ height: 113px;
 width: 154px;
 }
   .princesa:hover::before {
-display: -webkit-box;
 display: -ms-flexbox;
 display: flex;
 }
@@ -1248,8 +1227,7 @@ background: white;
   width: 100%;
   height: 100%;
   position: relative;
-  -webkit-perspective: 900px;
-          perspective: 900px;
+  perspective: 900px;
 }
 
 .ch-info {
@@ -1257,8 +1235,7 @@ background: white;
   width: 100%;
   height: 100%;
   text-align: center;
-  -webkit-transform-style: preserve-3d;
-          transform-style: preserve-3d;
+  transform-style: preserve-3d;
 }
 
 .ch-info > div {
@@ -1268,10 +1245,8 @@ background: white;
   height: 100%;
   /*border-radius: 50%;*/
   background-position: center center;
-  -webkit-transition: all 0.4s linear;
   transition: all 0.4s linear;
-  -webkit-transform-origin: 50% 0%;
-          transform-origin: 50% 0%;
+  transform-origin: 50% 0%;
 }
 
 .ch-info .ch-info-front {
@@ -1279,8 +1254,7 @@ background: white;
 }
 
 .ch-info .ch-info-back {
-  -webkit-transform: translate3d(0, 0, -200px) rotate3d(1, 0, 0, 90deg);
-          transform: translate3d(0, 0, -200px) rotate3d(1, 0, 0, 90deg);
+  transform: translate3d(0, 0, -200px) rotate3d(1, 0, 0, 90deg);
   background: #000;
   opacity: 0;
 }
@@ -1321,13 +1295,11 @@ background: white;
 }
 
 .ch-item:hover .ch-info-front {
-  -webkit-transform: translate3d(0, 280px, 0) rotate3d(1, 0, 0, -90deg);
-          transform: translate3d(0, 280px, 0) rotate3d(1, 0, 0, -90deg);
+  transform: translate3d(0, 280px, 0) rotate3d(1, 0, 0, -90deg);
   opacity: 0;
 }
 
 .ch-item:hover .ch-info-back {
-  -webkit-transform: rotate3d(1, 0, 0, 0deg);
-          transform: rotate3d(1, 0, 0, 0deg);
+  transform: rotate3d(1, 0, 0, 0deg);
   opacity: 1;
 }
