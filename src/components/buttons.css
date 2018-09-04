@@ -11,7 +11,7 @@
     font-family: var(--bold);
     color: black;
     max-width: 500px;
-    margin: 0 auto;
+    margin: 1em auto;
 }
 
 a.button:hover {
