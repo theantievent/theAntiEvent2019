@@ -410,7 +410,7 @@ left: 0;
     font-family: 'Lato-bold', sans-serif;
     color: black;
     max-width: 500px;
-    margin: 1em auto;
+    margin: 0 auto;
 }
 
 a.button:hover {
