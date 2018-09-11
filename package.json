@@ -25,8 +25,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/nabaroa/theantievent"
+    "url": "https://github.com/theantievent/theAntiEvent.git"
   },
-  "homepage": "",
-  "description": ""
+  "homepage": "http://theantievent.org/",
+  "description": "Open Space de desarrollo de software"
 }
