@@ -299,7 +299,37 @@ const antiAttendees = [
     "name": "Xabi",
     "nickname": "@ziraco",
     "link": "http://twitter.com/ziraco"
-  }
+  },
+  {
+    "avatar": "assets/attendees/aitoraznara.jpg",
+    "name": "Aitor",
+    "nickname": "@aitoraznara",
+    "link": "http://twitter.com/aitoraznara"
+  },
+  {
+    "avatar": "assets/attendees/buenapava.jpg",
+    "name": "Marina",
+    "nickname": "@buenapava",
+    "link": "http://twitter.com/buenapava"
+  },
+  {
+    "avatar": "assets/attendees/noxwings.jpg",
+    "name": "NoxWings",
+    "nickname": "@NoxWings",
+    "link": "http://twitter.com/NoxWings"
+  },
+  {
+    "avatar": "assets/attendees/itortv.jpg",
+    "name": "Jordi",
+    "nickname": "@Itortv",
+    "link": "http://twitter.com/Itortv"
+  },
+  {
+    "avatar": "assets/attendees/ardiluzu.png",
+    "name": "Ardiluzu",
+    "nickname": "@ardiluzu",
+    "link": "http://twitter.com/ardiluzu"
+  },
 ];
 
 const attendeesDiv = document.querySelector('.attenders');
