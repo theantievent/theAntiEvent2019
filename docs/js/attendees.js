@@ -79,12 +79,6 @@ const antiAttendees = [
     "link": "http://twitter.com/MortimerGoro",
   },
   {
-    "avatar": "assets/attendees/jorge.jpg",
-    "name": "Jorge",
-    "nickname": "@jorgeatgu",
-    "link": "http://twitter.com/jorgeatgu",
-  },
-  {
     "avatar": "assets/attendees/joseba.jpg",
     "name": "Joseba",
     "nickname": "@_NullPointer_",
@@ -107,12 +101,6 @@ const antiAttendees = [
     "name": "Carmen Ansio",
     "nickname": "@carmenansio",
     "link": "http://twitter.com/carmenansio",
-  },
-  {
-    "avatar": "assets/attendees/torro.jpg",
-    "name": "Elena Torro",
-    "nickname": "@eletorro",
-    "link": "http://twitter.com/eletorro",
   },
   {
     "avatar": "assets/attendees/cataflu.jpg",
@@ -155,12 +143,6 @@ const antiAttendees = [
     "name": "Naiara",
     "nickname": "@nabaroa",
     "link": "http://twitter.com/nabaroa",
-  },
-  {
-    "avatar": "assets/attendees/barrachina.jpg",
-    "name": "Jorge",
-    "nickname": "@NTKOG",
-    "link": "http://twitter.com/NTKOG",
   },
   {
     "avatar": "assets/attendees/txus.jpeg",
@@ -353,12 +335,6 @@ const antiAttendees = [
     "name": "Garazi",
     "nickname": "@Garazi_i",
     "link": "http://twitter.com/Garazi_i",
-  },
-  {
-    "avatar": "assets/attendees/arketipo.jpg",
-    "name": "Diego",
-    "nickname": "@arketipo",
-    "link": "http://twitter.com/arketipo",
   },
 ];
 
