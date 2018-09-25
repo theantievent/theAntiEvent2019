@@ -31,6 +31,12 @@ const antiAttendees = [
     "link": "http://twitter.com/viroide",
   },
   {
+    "avatar": "assets/attendees/unaizg.jpg",
+    "name": "Unai",
+    "nickname": "@Usainzg",
+    "link": "http://twitter.com/Usainzg",
+  },
+  {
     "avatar": "assets/attendees/karliky.jpg",
     "name": "Karliky",
     "nickname": "@k4rliky",
@@ -41,12 +47,6 @@ const antiAttendees = [
     "name": "Ladycircus",
     "nickname": "@ladycircus",
     "link": "http://twitter.com/ladycircus",
-  },
-  {
-    "avatar": "assets/attendees/unaizg.jpg",
-    "name": "Unai",
-    "nickname": "@Usainzg",
-    "link": "http://twitter.com/Usainzg",
   },
   {
     "avatar": "assets/attendees/maria.jpg",
