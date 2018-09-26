@@ -349,12 +349,6 @@ const antiAttendees = [
     "link": "http://twitter.com/jaicab_",
   },
   {
-    "avatar": "assets/attendees/aida.jpg",
-    "name": "Aida Albarrán",
-    "nickname": "@@aidaispro",
-    "link": "http://twitter.com/@aidaispro",
-  },
-  {
     "avatar": "assets/attendees/mikel-ros.jpg",
     "name": "Mikel Ros",
     "nickname": "@mikelros_",
@@ -363,8 +357,14 @@ const antiAttendees = [
   {
     "avatar": "assets/attendees/gorka.jpeg",
     "name": "Gorka Moreno",
-    "nickname": "@@gorkma",
-    "link": "http://twitter.com/@gorkma",
+    "nickname": "@gorkma",
+    "link": "http://twitter.com/gorkma",
+  },
+  {
+    "avatar": "assets/attendees/alberto.jpg",
+    "name": "Alberto Varela",
+    "nickname": "@artberri",
+    "link": "http://twitter.com/artberri",
   },
 ];
 
