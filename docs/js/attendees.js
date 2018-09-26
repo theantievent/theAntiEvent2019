@@ -187,12 +187,6 @@ const antiAttendees = [
     "link": "http://twitter.com/kinisoftware",
   },
   {
-    "avatar": "assets/attendees/chucheria.jpg",
-    "name": "Bea",
-    "nickname": "@chucheria",
-    "link": "http://twitter.com/chucheria",
-  },
-  {
     "avatar": "assets/attendees/sergixnet.jpg",
     "name": "Sergio",
     "nickname": "@Sergixnet",
