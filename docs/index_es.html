@@ -45,6 +45,7 @@
         <select name="" id="select">
           <option value="as">femenino</option>
           <option value="os">masculino</option>
+          <option value="es">neutro</option>
           <option value="xs">x</option>
           <option value="@s">@</option>
           <option value="♡s">♡</option>
@@ -260,8 +261,10 @@
     const select = document.querySelector('#select');
     const genderTexts = document.querySelectorAll('.gender-text');
 
-    select.addEventListener('change', () => genderTexts.forEach(e =>
-      e.innerText = select.options[select.selectedIndex].value)
+    select.addEventListener('change', () =>
+      genderTexts.forEach(e =>
+        e.innerText = select.value
+      )
     );
   </script>
 
