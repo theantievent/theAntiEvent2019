@@ -301,12 +301,6 @@ const antiAttendees = [
     "link": "http://twitter.com/Itortv",
   },
   {
-    "avatar": "assets/attendees/ardiluzu.png",
-    "name": "Ardiluzu",
-    "nickname": "@ardiluzu",
-    "link": "http://twitter.com/ardiluzu",
-  },
-  {
     "avatar": "assets/attendees/ivanguardado.jpg",
     "name": "Iván Guardado",
     "nickname": "@ivanguardado",
@@ -331,12 +325,6 @@ const antiAttendees = [
     "link": "http://twitter.com/Garazi_i",
   },
   {
-    "avatar": "assets/attendees/yontxu.jpg",
-    "name": "Yon Zubizarreta",
-    "nickname": "@yontxu",
-    "link": "http://twitter.com/yontxu",
-  },
-  {
     "avatar": "assets/attendees/jaime.jpg",
     "name": "Jaime Caballero",
     "nickname": "@jaicab_",
@@ -359,6 +347,36 @@ const antiAttendees = [
     "name": "Alberto Varela",
     "nickname": "@artberri",
     "link": "http://twitter.com/artberri",
+  },
+  {
+    "avatar": "assets/attendees/raul.jpeg",
+    "name": "Raultxi",
+    "nickname": "@raultxi",
+    "link": "http://twitter.com/raultxi",
+  },
+  {
+    "avatar": "assets/attendees/urtzi.jpg",
+    "name": "Urtzi",
+    "nickname": "@urtzip",
+    "link": "http://twitter.com/urtzip",
+  },
+  {
+    "avatar": "assets/attendees/iraide.jpg",
+    "name": "Iraide",
+    "nickname": "",
+    "link": "",
+  },
+  {
+    "avatar": "assets/attendees/ekaitz.jpeg",
+    "name": "Ekaitz",
+    "nickname": "github.com/ekaitz-zarraga",
+    "link": "https://github.com/ekaitz-zarraga",
+  },
+  {
+    "avatar": "assets/attendees/txipi.png",
+    "name": "Txipi",
+    "nickname": "@PGaraizar",
+    "link": "http://twitter.com/PGaraizar",
   },
 ];
 
