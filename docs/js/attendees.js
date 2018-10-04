@@ -378,6 +378,18 @@ const antiAttendees = [
     "nickname": "@PGaraizar",
     "link": "http://twitter.com/PGaraizar",
   },
+  {
+    "avatar": "assets/attendees/dolara.jpg",
+    "name": "Alex Dolara",
+    "nickname": "@aledoo",
+    "link": "http://twitter.com/aledoo",
+  },
+  {
+    "avatar": "assets/attendees/julen.jpg",
+    "name": "Julen",
+    "nickname": "@@hicom150",
+    "link": "http://twitter.com/@hicom150",
+  },
 ];
 
 const attendeesDiv = document.querySelector('.attenders');
