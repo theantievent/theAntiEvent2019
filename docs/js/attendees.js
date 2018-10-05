@@ -387,8 +387,14 @@ const antiAttendees = [
   {
     "avatar": "assets/attendees/julen.jpg",
     "name": "Julen",
-    "nickname": "@@hicom150",
-    "link": "http://twitter.com/@hicom150",
+    "nickname": "@hicom150",
+    "link": "http://twitter.com/hicom150",
+  },
+  {
+    "avatar": "assets/attendees/pedro.jpg",
+    "name": "Pedro Rivas",
+    "nickname": "@rm_dro",
+    "link": "http://twitter.com/rm_dro",
   },
 ];
 
