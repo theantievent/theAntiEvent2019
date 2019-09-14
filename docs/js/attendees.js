@@ -1,5 +1,36 @@
 
-const antiAttendees = [];
+const antiAttendees = [
+  {
+    "avatar": "assets/attendees/mercedes.jpg",
+    "name": "Mercedes",
+    "nickname": "@laponyo",
+    "link": "http://twitter.com/laponyo",
+  },
+  {
+    "avatar": "assets/attendees/keldor.jpg",
+    "name": "Keldor",
+    "nickname": "@keldor88",
+    "link": "http://twitter.com/keldor88",
+  },
+  {
+    "avatar": "assets/attendees/Nahikariii.jpg",
+    "name": "Nahikari",
+    "nickname": "@Nahikariii",
+    "link": "http://twitter.com/Nahikariii",
+  },
+  {
+    "avatar": "assets/attendees/sirikon.jpg",
+    "name": "Carlos Fdez Llamas",
+    "nickname": "@sirikon",
+    "link": "http://mastodon.social/@sirikon",
+  },
+  {
+    "avatar": "assets/attendees/viroide.jpg",
+    "name": "Viroide",
+    "nickname": "@viroide",
+    "link": "http://twitter.com/viroide",
+  },
+];
 
 const attendeesDiv = document.querySelector('.attenders');
 
