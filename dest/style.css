@@ -795,6 +795,8 @@ object-fit: cover;
 .organizer a{
 width: 25vw;
 height: 25vw;
+max-width: 300px;
+max-height: 300px;
 }
 }
 
