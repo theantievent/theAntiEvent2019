@@ -39,8 +39,8 @@ const antiAttendees = [
   {
     "avatar": "assets/attendees/josebaseba.jpg",
     "name": "Joseba",
-    "nickname": "@Inverse_Bit",
-    "link": "http://twitter.com/Inverse_Bit",
+    "nickname": "@Josebaseba",
+    "link": "http://twitter.com/Josebaseba",
   },
   {
     "avatar": "assets/attendees/garazi_i.jpg",
@@ -57,7 +57,7 @@ const antiAttendees = [
   {
     "avatar": "assets/attendees/morti.jpg",
     "name": "Imanol",
-    "nickname": "@@MortimerGoro",
+    "nickname": "@MortimerGoro",
     "link": "http://twitter.com/@MortimerGoro",
   }
 ];
