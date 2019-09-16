@@ -21,7 +21,7 @@ const antiAttendees = [
   {
     "avatar": "assets/attendees/sirikon.jpg",
     "name": "Carlos Fdez Llamas",
-    "nickname": "@sirikon",
+    "nickname": "@sirikon@plaza.remolino.town",
     "link": "http://mastodon.social/@sirikon",
   },
   {
