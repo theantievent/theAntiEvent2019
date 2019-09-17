@@ -29,7 +29,7 @@ const antiAttendees = [
     "name": "Viroide",
     "nickname": "@viroide",
     "link": "http://twitter.com/viroide",
-  },  
+  },
   {
     "avatar": "assets/attendees/alex.jpeg",
     "name": "Alex",
@@ -58,7 +58,37 @@ const antiAttendees = [
     "avatar": "assets/attendees/morti.jpg",
     "name": "Imanol",
     "nickname": "@MortimerGoro",
-    "link": "http://twitter.com/@MortimerGoro",
+    "link": "http://twitter.com/MortimerGoro",
+  },
+  {
+    "avatar": "https://avatars0.githubusercontent.com/u/8914783?s=460&v=4",
+    "name": "Patricia Perochena",
+    "nickname": "@patri_pe",
+    "link": "http://twitter.com/patri_pe",
+  },
+  {
+    "avatar": "https://pbs.twimg.com/profile_images/1016630266532696065/bOtB4Hwn_400x400.jpg",
+    "name": "Jon Torrado",
+    "nickname": "@jontorrado",
+    "link": "http://twitter.com/jontorrado",
+  },
+  {
+    "avatar": "https://pbs.twimg.com/profile_images/1048896985338695680/jK6dVL3u_400x400.jpg",
+    "name": "Gorka",
+    "nickname": "@Ercillagorka",
+    "link": "http://twitter.com/ercillagorka",
+  },
+  {
+    "avatar": "https://pbs.twimg.com/profile_images/1119350490356174848/aE4uvCep.jpg",
+    "name": "Raul Moreno Sola",
+    "nickname": "@miniservers",
+    "link": "http://twitter.com/miniservers",
+  },
+  {
+    "avatar": "https://pbs.twimg.com/profile_images/1119719100018720768/h9b1J6zi_400x400.jpg",
+    "name": "Iñaki Etxebarria",
+    "nickname": "@ilpapis",
+    "link": "http://twitter.com/ilpapis",
   }
 ];
 
@@ -66,7 +96,7 @@ const attendeesDiv = document.querySelector('.attenders');
 
 antiAttendees.forEach(attendee => {
   const item = document.createElement('div');
-  item.className = `item ${attendee.name === 'Ladycircus' ? ' princesa' : ''}`;
+  item.className = 'item';
 
   const chItem = document.createElement('div');
   chItem.className = 'ch-item';
