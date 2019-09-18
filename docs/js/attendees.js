@@ -89,7 +89,37 @@ const antiAttendees = [
     "name": "Iñaki Etxebarria",
     "nickname": "@ilpapis",
     "link": "http://twitter.com/ilpapis",
-  }
+  },
+  {
+    "avatar": "https://avatars3.githubusercontent.com/u/610728?s=460&v=4",
+    "name": "Unai Orbe",
+    "nickname": "@uorbe001",
+    "link": "http://twitter.com/uorbe001",
+  },
+  {
+    "avatar": "https://pbs.twimg.com/profile_images/378800000863806205/LSMwsWSG_400x400.png",
+    "name": "Elena Ramírez",
+    "nickname": "@lenatwitteada",
+    "link": "http://twitter.com/lenatwitteada",
+  },
+  {
+    "avatar": "https://avatars0.githubusercontent.com/u/655613?s=460&v=4",
+    "name": "Alvaro Salazar",
+    "nickname": "@xala3pa",
+    "link": "http://twitter.com/xala3pa",
+  },
+  {
+    "avatar": "https://pbs.twimg.com/profile_images/1095620060348145664/kefaORgz.png",
+    "name": "carmenansio",
+    "nickname": "@carmenansio",
+    "link": "http://twitter.com/carmenansio",
+  },
+  {
+    "avatar": "https://pbs.twimg.com/profile_images/471751879056031744/H88Z2_0V_400x400.jpeg",
+    "name": "Imanol Pinto",
+    "nickname": "@Pahint",
+    "link": "http://twitter.com/Pahint",
+  },
 ];
 
 const attendeesDiv = document.querySelector('.attenders');
