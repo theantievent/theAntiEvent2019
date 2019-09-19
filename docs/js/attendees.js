@@ -120,6 +120,66 @@ const antiAttendees = [
     "nickname": "@Pahint",
     "link": "http://twitter.com/Pahint",
   },
+  {
+    "avatar": "https://pbs.twimg.com/media/DqgdpVYX0AEhdKz.jpg",
+    "name": "Compinche: \n🤖 Mikel Torres",
+    "nickname": "@ojoven",
+    "link": "http://twitter.com/ojoven",
+  },
+  {
+    "avatar": "https://pbs.twimg.com/media/DqgdpVYX0AEhdKz.jpg",
+    "name": "👉👉👉",
+    "nickname": "La Visionaria",
+    "link": "https://twitter.com/diana_aceves_/status/1056129394425716736",
+  },
+  {
+    "avatar": "https://pbs.twimg.com/media/DqgdpVYX0AEhdKz.jpg",
+    "name": "👉👉",
+    "nickname": "sabía",
+    "link": "https://youtu.be/oHg5SJYRHA0",
+  },
+  {
+    "avatar": "https://pbs.twimg.com/media/DqgdpVYX0AEhdKz.jpg",
+    "name": "👉",
+    "nickname": "lo",
+    "link": "https://www.theclassicarchives.com/images/ebaypics/F88/suspense1.jpg",
+  },
+  {
+    "avatar": "https://pbs.twimg.com/media/DqgdpVYX0AEhdKz.jpg",
+    "name": "Fernando Fariña & El Compinche",
+    "nickname": "Ella",
+    "link": "https://i.imgur.com/2AQUTte.jpg",
+  },
+  {
+    "avatar": "https://pbs.twimg.com/media/D6XY_ZPXoAEUiVd.jpg",
+    "name": "Fernando Fariña",
+    "nickname": "@penniath",
+    "link": "http://twitter.com/penniath",
+  },
+  {
+    "avatar": "https://avatars2.githubusercontent.com/u/2656497?s=460&v=4",
+    "name": "Fernando Fariña",
+    "nickname": "@penniath",
+    "link": "http://twitter.com/penniath",
+  },
+  {
+    "avatar": "https://pbs.twimg.com/media/D6XY_ZPXoAEUiVd.jpg",
+    "name": "Fernando Fariña",
+    "nickname": "@penniath",
+    "link": "http://twitter.com/penniath",
+  },
+  {
+    "avatar": "https://avatars2.githubusercontent.com/u/2656497?s=460&v=4",
+    "name": "Fernando Fariña",
+    "nickname": "@penniath",
+    "link": "http://twitter.com/penniath",
+  },
+  {
+    "avatar": "https://pbs.twimg.com/media/D6XY_ZPXoAEUiVd.jpg",
+    "name": "Fernando Fariña",
+    "nickname": "@penniath",
+    "link": "http://twitter.com/penniath",
+  },
 ];
 
 const attendeesDiv = document.querySelector('.attenders');
