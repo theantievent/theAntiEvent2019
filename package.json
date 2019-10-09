@@ -1,5 +1,5 @@
 {
-  "name": "TheAntiEvent",
+  "name": "theantiavent",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -28,5 +28,8 @@
     "url": "https://github.com/theantievent/theAntiEvent.git"
   },
   "homepage": "http://theantievent.org/",
-  "description": "Open Space de desarrollo de software"
+  "description": "Open Space de desarrollo de software",
+  "dependencies": {
+    "10": "0.0.1"
+  }
 }
