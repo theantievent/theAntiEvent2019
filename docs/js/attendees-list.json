@@ -238,5 +238,35 @@
     "name": "Fran Mosteiro",
     "nickname": "@fran_mosteiro",
     "link": "http://twitter.com/fran_mosteiro"
+  },
+  {
+    "avatar": "assets/attendees/elreplicante.jpg",
+    "name": "Sergio Revilla",
+    "nickname": "@elreplicante",
+    "link": "http://twitter.com/elreplicante"
+  },
+  {
+    "avatar": "assets/attendees/PGaraizar.jpg",
+    "name": "Pablo Garaizar",
+    "nickname": "@PGaraizar",
+    "link": "http://twitter.com/PGaraizar"
+  },
+  {
+    "avatar": "assets/attendees/MarkelLavin.jpg",
+    "name": "markel arauzo lavin",
+    "nickname": "@MarkelLavin",
+    "link": "http://twitter.com/MarkelLavin"
+  },
+  {
+    "avatar": "assets/attendees/_NullPointer_.jpg",
+    "name": "Joseba Rodriguez",
+    "nickname": "@_NullPointer_",
+    "link": "http://twitter.com/_NullPointer_"
+  },
+  {
+    "avatar": "assets/attendees/ladybenko.jpg",
+    "name": "Belén 😱",
+    "nickname": "@ladybenko",
+    "link": "http://twitter.com/ladybenko"
   }
 ]
