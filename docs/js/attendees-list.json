@@ -388,5 +388,35 @@
     "name": "Gonzalo Ayuso",
     "nickname": "@gonzalo123",
     "link": "http://twitter.com/gonzalo123"
-  }  
+  },
+  {
+    "avatar": "assets/default.jpg",
+    "name": "X",
+    "nickname": "",
+    "link": ""
+  },
+  {  
+    "avatar": "assets/attendees/ricardo.jpg",
+    "name": "Ricardo Galipienzo",
+    "nickname": "ricardo",
+    "link": "https://linkedin.com/in/ricardo-galipienzo-hernández-250a5132"
+  },
+  {  
+    "avatar": "assets/attendees/jesus.jpg",
+    "name": "Jesus Arnas",
+    "nickname": "@jesusArnas",
+    "link": "http://twitter.com/jesusArnas"
+  },
+  {
+    "avatar": "assets/attendees/monica.jpg",
+    "name": "Mónica Martín",
+    "nickname": "@monbio",
+    "link": "http://twitter.com/monbio"
+  },
+  {
+    "avatar": "assets/attendees/israel.jpg",
+    "name": "Israel Otz de Zárate",
+    "nickname": "@iortizdezarate",
+    "link": "http://twitter.com/iortizdezarate"
+  }
 ]
