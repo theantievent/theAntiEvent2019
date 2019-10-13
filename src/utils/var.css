@@ -1,41 +1,34 @@
-:root{
-/*//Colors*/
---color: #36d0b5;
+:root {
+  --color: #36d0b5;
 
+  --black: black;
+  --opaque: #111111;
+  --darker: #222222;
+  --dark: #313131;
+  --darkless: #3e3e3e;
+  --neutraler: #444444;
+  --neutral: #666666;
+  --paler: #777777;
+  --pale: #999999;
+  --barer: #b9b8b8;
+  --bare: #cccccc;
+  --white: white;
 
-/*// Greyscale*/
---black: black;
---opaque: #111111;
---darker: #222222;
---dark: #313131;
---darkless: #3e3e3e;
---neutraler: #444444;
---neutral: #666666;
---paler: #777777;
---pale: #999999;
---barer: #b9b8b8;
---bare: #cccccc;
---white: white;
+  --mobile-width-s: 320px;
+  --mobile-width: 480px;
+  --mobile-height-s: 480px;
+  --mobile-height: 800px;
+  --netbook-width: 1080px;
+  --tablet-width: 850px;
+  --tablet-width-min: 851px;
+  --l-screensize: 1440px;
+  --xl-screensize: 1900px;
 
-/* --------------------------------------------------------------------*/
-/* Media queries
-/* --------------------------------------------------------------------*/
---mobile-width-s: 320px;
---mobile-width: 480px;
---mobile-height-s: 480px;
---mobile-height: 800px;
---netbook-width: 1080px;
---tablet-width: 850px;
---tablet-width-min: 851px;
---l-screensize: 1440px;
---xl-screensize: 1900px;
+  --light: "Lato-light", sans-serif;
+  --bold: "Lato-bold", sans-serif;
 
-
---light: 'Lato-light', sans-serif;
-
-
---bold: 'Lato-bold', sans-serif;
-
-
---light: 'Lato-light', sans-serif;
+  --spacer: 8px;
+  
+  --nav-width: calc(var(--nav-height) + var(--spacer));
+  --nav-height: calc(var(--spacer) * 6);
 }

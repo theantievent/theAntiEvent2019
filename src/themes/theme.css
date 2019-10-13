@@ -16,7 +16,6 @@ body {
 }
 
 .slogan {
-
   font-size: 1.5em;
 }
 
@@ -29,19 +28,22 @@ body {
   background: var(--color);
   color: #000;
   padding: 20px;
+
   a {
     display: block;
     color: #000;
     cursor: pointer;
     height: 100%;
   }
+
   h1 {
     position: absolute;
     text-indent: -9999px;
   }
 }
 
-#container {
+.container {
+
   @media all and (max-width: 420px) {
     height: inherit !important;
     overflow: visible !important;
@@ -58,7 +60,7 @@ body {
 
 .icon-twitter:hover:after {
   content: "Follow us";
-  font-size: .3em;
+  font-size: 0.3em;
   position: absolute;
   bottom: 20px;
   left: 40px;
@@ -71,16 +73,6 @@ body {
   }
 }
 
-/*a {
-  color: #666666;
-  text-decoration: none;
-  &:visited {
-    color: #666666;
-  }
-  &:focus, &:hover {
-    text-decoration: underline;
-  }
-}*/
 
 /*//--------------------------------//
 //  //Colors
@@ -115,7 +107,8 @@ body {
   color: #fff !important;
 }
 
-.firm, a.firm {
+.firm,
+a.firm {
   color: #f4b408 !important;
 }
 
@@ -127,39 +120,48 @@ body {
   color: #c20000;
 }
 
-a.bare, .bare a {
+a.bare,
+.bare a {
   color: #bbb;
 }
 
-a.pale, .pale a {
+a.pale,
+.pale a {
   color: #999;
 }
 
-a.neutral, .neutral a {
+a.neutral,
+.neutral a {
   color: #666;
 }
 
-a.opaque, .opaque a {
+a.opaque,
+.opaque a {
   color: #333;
 }
 
-a.sharp, .sharp a {
+a.sharp,
+.sharp a {
   color: #000;
 }
 
-a.contrast, .contrast a {
+a.contrast,
+.contrast a {
   color: #fff;
 }
 
-a.firm, .firm a {
+a.firm,
+.firm a {
   color: #f4b408;
 }
 
-a.positive, .positive a {
+a.positive,
+.positive a {
   color: #73ab00;
 }
 
-a.negative, .negative a {
+a.negative,
+.negative a {
   color: #c20000;
 }
 
@@ -175,7 +177,8 @@ a.negative, .negative a {
   background: #666;
 }
 
-.bgopaque, header.bgopaque {
+.bgopaque,
+header.bgopaque {
   background: #333333;
 }
 
@@ -277,8 +280,7 @@ ul.boxshadow2 li {
   width: 100%;
   min-height: 100vh;
   float: left;
-  padding-bottom: 50px ;
-
+  padding-bottom: 50px;
 
   &.only-title {
     height: 150px !important;
@@ -290,12 +292,16 @@ ul.boxshadow2 li {
     text-align: left;
     margin: auto;
     font-size: 1.2em;
-    h3, h4 {
+
+    h3,
+    h4 {
       margin: 20px 0;
       font-weight: bold;
     }
+
     ul {
       margin: 20px 50px;
+
       @media all and (max-width: 400px) {
         margin: 20px 10px;
       }
@@ -304,53 +310,68 @@ ul.boxshadow2 li {
       margin: 10px 0;
       line-height: 25px;
     }
+
     li {
       line-height: 25px;
     }
-    &.center{
+
+    &.center {
       text-align: center;
     }
   }
+
   &.color {
     background: var(--color) !important;
     color: var(--opaque);
   }
+  
   &.dark {
     background: var(--darker) !important;
     color: var(--bare);
   }
+  
   &.neutral {
-    background: var(--dark)!important;
+    background: var(--dark) !important;
     color: var(--bare);
   }
+  
   &.neutraler {
     background: var(--dark) !important;
     color: var(--bare);
   }
+  
   &.light {
     background: var(--bare) !important;
     color: var(--opaque) !important;
   }
+  
   &.white {
     background: var(--white) !important;
     color: var(--opaque) !important;
   }
 }
 
-    .lang {
+.lang {
   position: fixed;
   right: 0;
-  z-index: 9;
+  z-index: 2;
   top: 0px;
-  a {
+  width: var(--nav-width);
+  height: var(--nav-height);
+
+  .lang__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
     text-decoration: none;
-    display: block;
-    padding: 17px;
-    color:white;
+    color: white;
     background: var(--color);
     font-family: var(--bold);
+
     &:hover {
-      color:var(--color);
+      color: var(--color);
       background: var(--white);
     }
   }
