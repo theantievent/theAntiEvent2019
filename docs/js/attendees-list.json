@@ -298,5 +298,35 @@
     "name": "eddie feretro",
     "nickname": "@eddieFeretro",
     "link": "http://twitter.com/eddieFeretro"
+  },
+  {
+    "avatar": "assets/attendees/bea.jpg",
+    "name": "Bea Hernández",
+    "nickname": "@Chucheria",
+    "link": "http://twitter.com/Chucheria"
+  },
+  {
+    "avatar": "assets/attendees/jonan.jpg",
+    "name": "Jon Ander Romero",
+    "nickname": "@jonanone",
+    "link": "http://twitter.com/jonanone"
+  },
+  {
+    "avatar": "assets/attendees/karen.jpg",
+    "name": "Karen Troiano",
+    "nickname": "@TroiKM",
+    "link": "http://twitter.com/TroiKM"
+  },
+  {
+    "avatar": "assets/attendees/xabi.jpg",
+    "name": "Xabi Sáez de Ocáriz",
+    "nickname": "@ziraco",
+    "link": "http://twitter.com/ziraco"
+  },
+  {
+    "avatar": "assets/attendees/sergio.jpg",
+    "name": "Sergio Sáenz",
+    "nickname": "@devjuggler",
+    "link": "http://twitter.com/devjuggler"
   }
 ]
