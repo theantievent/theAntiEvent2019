@@ -329,4 +329,33 @@
     "nickname": "@devjuggler",
     "link": "http://twitter.com/devjuggler"
   }
+    "avatar": "assets/attendees/naiara.jpg",
+    "name": "Naiara Abaroa",
+    "nickname": "@nabaroa",
+    "link": "http://twitter.com/nabaroa"
+  },
+  {
+    "avatar": "assets/attendees/asier.jpg",
+    "name": "Asier Musa",
+    "nickname": "@asiermusa",
+    "link": "http://twitter.com/asiermusa"
+  },
+  {
+    "avatar": "assets/attendees/nadia.jpg",
+    "name": "Nadia Carreira",
+    "nickname": "nadiacarreiranuñez",
+    "link": "https://www.linkedin.com/in/nadiacarreiranuñez"
+  },
+  {
+    "avatar": "assets/attendees/apa.jpg",
+    "name": "APA",
+    "nickname": "@APA42",
+    "link": "http://twitter.com/APA42"
+  },
+  {
+    "avatar": "assets/attendees/txus.jpeg",
+    "name": "Txus Ordorika",
+    "nickname": "@txusinho",
+    "link": "http://twitter.com/txusinho"
+  }  
 ]
