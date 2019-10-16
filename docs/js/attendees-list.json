@@ -328,7 +328,8 @@
     "name": "Sergio Sáenz",
     "nickname": "@devjuggler",
     "link": "http://twitter.com/devjuggler"
-  }
+  },
+  {
     "avatar": "assets/attendees/naiara.jpg",
     "name": "Naiara Abaroa",
     "nickname": "@nabaroa",
@@ -357,5 +358,35 @@
     "name": "Txus Ordorika",
     "nickname": "@txusinho",
     "link": "http://twitter.com/txusinho"
+  },
+  {
+    "avatar": "assets/attendees/kevin.jpg",
+    "name": "Kevin Cifuentes",
+    "nickname": "kevin-cifuentes-salas",
+    "link": "https://www.linkedin.com/in/kevin-cifuentes-salas"
+  },
+  {
+    "avatar": "assets/attendees/daniele.jpeg",
+    "name": "Daniele Crosetti",
+    "nickname": "@cronycles",
+    "link": "http://twitter.com/cronycles"
+  },
+  {
+    "avatar": "assets/attendees/eneko.jpg",
+    "name": "Eneko Bikandi",
+    "nickname": "@enekobi",
+    "link": "http://twitter.com/enekobi"
+  },
+  {
+    "avatar": "assets/attendees/cata.jpg",
+    "name": "Cata Oyaneder ❤",
+    "nickname": "@cataflu",
+    "link": "http://twitter.com/cataflu"
+  },
+  {
+    "avatar": "assets/attendees/gonzalo.jpg",
+    "name": "Gonzalo Ayuso",
+    "nickname": "@gonzalo123",
+    "link": "http://twitter.com/gonzalo123"
   }  
 ]
